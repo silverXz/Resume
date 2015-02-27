@@ -33,9 +33,9 @@
 
 \usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
 
-%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be 
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be
 \usepackage{fullpage}
-% To reduce the height of the top margin uncomment: 
+% To reduce the height of the top margin uncomment:
 \addtolength{\voffset}{-1.3cm}
 
 \usepackage{hyperref} % Required for adding links	and customizing them
@@ -58,13 +58,13 @@
 
 \par{\centering{\Huge Haoyu \textsc{Wang}}\bigskip\par} % Your name
 
-\section{Personal Data}
+\section{Personal Info.}
 
 \begin{tabular}{rl}
-\textsc{Place and Date of Birth:} & P.R.China  | 18 November 1988 \\
-\textsc{Address:} & 1068 Xueyuan Avenue, Shenzhen, P.R.China \\
+\textsc{Place and Date of Birth:} & Shandong P.R.China  | 18 November 1988 \\
+\textsc{Address:} & No.1068 Xueyuan Avenue, Shenzhen, P.R.China \\
 \textsc{Phone:} & +86 18665801973\\
-\textsc{email:} & \href{mailto:wanghaoyu00x@gmail.com}{wanghaoyu00x@gmail.com}
+\textsc{email:} & \href{mailto:wanghaoyu00x@gmail.com}{\emph{wanghaoyu00x@gmail.com}}
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
@@ -74,16 +74,14 @@
 \section{Education}
 
 \begin{tabular}{rl}	
-\textsc{Sep. 2011 - Jul. 2014} & Master of Computer Technology in \textbf{University of Chinese Academy of Sciences}\\
+\textsc{Sep. 2011 - Jul. 2014} & Master of Computer Science in \textbf{University of Chinese Academy of Sciences}\\
 & Major: Computer Graphics\\
-& Thesis: \small \emph{``Simulating the Motions of Guidewire and Catheter in Interventional Radiology''} \\ & \small Advisor: Dr. Wu \textsc{Jianhuang}\\
-&\normalsize \textsc{Gpa}: 3.35/4.0 \\
-&\\
+& Thesis: \small \emph{``Simulating the Motions of Guidewire and Catheter in Interventional Radiology''} \\
+& \textsc{Gpa}: 3.35/4.0 \\
 
 %------------------------------------------------
 
 \textsc{Sep. 2007 - Jul. 2011} & Bachelor of Control Science and Engineering in \textbf{Shandong University} \\
-& \small\emph{Automation Specialization} \normalsize \\
 &\normalsize \textsc{Gpa}: 3.31/4.0 \\
 &\\
 
@@ -99,18 +97,20 @@
 
 \begin{tabular}{r|p{11cm}}
 \textsc{Jul. 2014 - Current} & Research Assistant at \textsc{Shenzhen Institutes of Advanced Technoloty}, Shenzhen \\
-& \footnotesize{\emph{Participating in developping a medical simulating system for training interventional radiology skills. It is based on C++, MFC, OpenGL ( 4.0 or higher ). Responsible for Medical Data Visualization, Physical Simulation, Model Process }}.\\
+& \footnotesize{\emph{Working in developping a medical simulating system for training interventional radiology skills. It is based on C++, MFC, OpenGL ( 4.0 or higher ). Responsible for medical data visualization, physical simulation and mesh processing }}.\\
+
 \multicolumn{2}{c}{} \\
 
 %------------------------------------------------
 
-\textsc{Jul. 2012- Jun. 2014} & Formal Student at \textsc{Shenzhen Institutes of Advanced Technology}, Shenzhen \emph{}\\
-& \footnotesize{\emph{Presented a fast and robust approach to simulating the behavior of guidewire in vascular interventional radiology. Rewrited the low-level old fixed-function OpenGL rendering code with GLSL 4.0 to make good use of the highly programmable pipeline.}}\\
+\textsc{Jul. 2012- Jun. 2014} & Regular Student at \textsc{Shenzhen Institutes of Advanced Technology}, Shenzhen \emph{}\\
+& \footnotesize{\emph{Presented a novel approach to simulating wire-like instrument in virtual surgery. Rewrited the low-level old fixed-function OpenGL rendering code with GLSL 4.0.}}\\
 \multicolumn{2}{c}{} \\
 
 %------------------------------------------------
 
 \end{tabular}
+
 
 %----------------------------------------------------------------------------------------
 %	PROJECT EXPERIENCE
@@ -119,38 +119,76 @@
 \section{Project Experience}
 
 \begin{tabular}{rp{12.0cm}}
-\textbf{Medical Simulation} &  Jun. 2012 - Current\\
-\footnotesize{(Work)}& \footnotesize{Mesh Process: \emph{fill holes, make C-Arm animation,etc.}}\\
- & \footnotesize{ UI Layout: \emph{Multiple Viewport Management, Multiple Monitor Display,etc. }}\\
- & \footnotesize{Medical data visualization: \emph{X-Ray/Endoscope/Angiography Simulation, Phong lighting, etc.}}\\
- & \footnotesize{Physical Simulation: \emph{Collision Detection,Medical Instrument behavior modeling/simulation,etc.}}\\
+\textbf{Surgical Simulation} &  Jun. 2012 - Current\\
+\footnotesize{(Work)}& \footnotesize{\emph{Process vascular meshes, fill holes, make C-Arm animation,etc.}}\\
+ & \footnotesize{ \emph{Manage multiple viewport rendering, multiple monitor displaying,etc. }}\\
+ & \footnotesize{ \emph{Simulate X-Ray/Endoscope/Angiography effect, implement Phong lighting, etc.}}\\
+ & \footnotesize{\emph{Perform collision detection,medical instrument behavior modeling/simulation,etc.}}\\
 
 \multicolumn{2}{c}{} \\
 
 %------------------------------------------------
 
 \textbf{Fluid Simulation} &  Apr. 2013 - Current \\
-\footnotesize{(Work)}& \footnotesize{\emph{Using ping-pong buffer to solve the Navier-Stokes equation on the GPU}}.\\
-& \footnotesize{\emph{Using point sprite to visualize particles as fluid.}}.\\
+\footnotesize{(Work)}& \footnotesize{\emph{Solve the Navier-Stokes equation with ping-pong buffer on the GPU}}.\\
+& \footnotesize{\emph{Visualize particles as fluid using point sprites.}}\\
 \multicolumn{2}{c}{} \\
 
 %------------------------------------------------
 
 \textbf{Delta3D Pool Game} & Sep. 2011 - Jan. 2012 \\
-\footnotesize{(Course Group)} & \footnotesize{\emph{Game scene setup by importing models and adding light sources in the Delta3D Editor}}\\
+\footnotesize{(Course Group)} & \footnotesize{\emph{Setup game scene by importing models and adding light sources in the Delta3D Editor.}}\\
+& \footnotesize{\emph{ Simulate the interaction between pools with ODE( Open Dynamics Engine ).}}\\
 \multicolumn{2}{c}{} \\
 
 %------------------------------------------------
 
-\textbf{Linux-0.11 kernel} & Mar. 2012 - Jun. 2012 \\
-\footnotesize{(Course Group)} & \footnotesize{\emph{}}\\
-\multicolumn{2}{c}{} \\
+%\textbf{Linux-0.11 kernel} & Mar. 2012 - Jun. 2012 \\
+%\footnotesize{(Course Group)} & \footnotesize{\emph{Expanded the maximum amounts of thread and detectable memory of Linux-0.11 kernel.}}\\
+%& \footnotesize{\emph{Modified the memory management code of the kernel to utilize more available memory.}}\\
+%\multicolumn{2}{c}{} \\
 
 \textbf{Software Renderer} & Dec. 2014 - Current \\
-\footnotesize{(Personal)} & \footnotesize{\emph{}}\\
+\footnotesize{(Personal)} & \footnotesize{\emph{ A simple math library to do OpenGL-like transformation;}}\\
+& \footnotesize{\emph{ A simple rasterizer to do bresenham line drawing and scan-line triangle filling with perspective correction interpolation.}}\\
+& \footnotesize{\emph{ Phong lighting and depth test.}}\\
 \multicolumn{2}{c}{} \\
 
 \end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+\begin{tabular}{rl}
+Basic Knowledge: & \textsc{python}, \textsc{Linux}, ubuntu, {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+
+Intermediate Knowledge: & \textsc{C, C++, MSVC, GLSL, MFC, Word, PowerPoint}\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	Paper and Patent
+%----------------------------------------------------------------------------------------
+
+\section{Paper and Patent}
+
+\begin{tabular}{p{0.3cm}p{15.0cm}}
+\textsc{[1]} & \textbf{Wang HY}\emph{, Wu JH, Wei MQ, Ma X. A robust and fast approach to simulating the behavior of guidewire in vascular interventional radiology. Computerized Medical Imaging and Graphics. 2015,40(2):160-169. (IF=1.496, JCR3).}\\
+
+\textsc{[2]} & \emph{Wu JH, Zhang P,} \textbf{Wang HY}\emph{, Mi JP, Ma X, Hu QM. A virtual simulator for training essential skills in vascular interventional radiology. International Journal of Computer Assisted Radiology and Surgery. 2014, 9(Suppl 1):S44-S45. (IF=1.659, JCR2/3).}\\
+
+\textsc{[3]} & \emph{Wu JH,} \textbf{ Wang HY} \emph{, Zang P, Hu QM. A computer-based simulator for percutaneous coronary intervention. 7th International Conference on Bioinformatics and Biomedical Technology. Accepted.} \\
+
+\textsc{[4]} & \emph{Wu JH,} \textbf{ Wang HY} \emph{, Ma X. An approach to simulating virtual medical instruments. Invention patent. Application No.:201410140075.X.} \\
+
+\textsc{[5]} & \textbf{Wang HY}\emph{, Wu JH. An approach to processing data in virtual surgery. Invention patient. Application No.:201410841513.5.} \\
+
+\textsc{[6]} & \emph{Wu JH,} \textbf{Wang HY}\emph{. Interventional surgery planning and training equipment and related methods. Invention patient. Applied. }\\
+
+\end{tabular}
+
 
 %----------------------------------------------------------------------------------------
 %	SCHOLARSHIPS AND ADDITIONAL INFO
@@ -170,26 +208,7 @@
 
 
 
-%----------------------------------------------------------------------------------------
-%	Paper and Patent
-%----------------------------------------------------------------------------------------
 
-\section{Paper and Patent}
-
-\begin{tabular}{p{0.3cm}p{15.0cm}}
-\textsc{[1]} & \emph{Wang HY, Wu JH, Wei MQ, Ma X. A robust and fast approach to simulating the behavior of guidewire in vascular interventional radiology. Computerized Medical Imaging and Graphics. 2015,40(2):160-169. (IF=1.496, JCR3).}\\
-
-\textsc{[2]} & \emph{Wu JH, Zhang P, Wang HY, Mi JP, Ma X, Hu QM. A virtual simulator for training essential skills in vascular interventional radiology. International Journal of Computer Assisted Radiology and Surgery. 2014, 9(Suppl 1):S44-S45. (IF=1.659, JCR2/3).}\\
-
-\textsc{[3]} & \emph{Wu JH, Wang HY, Zang P, Hu QM. A computer-based simulator for percutaneous coronary intervention. 7th International Conference on Bioinformatics and Biomedical Technology. Accepted.} \\
-
-\textsc{[4]} & \emph{Wu JH, Wang HY, Ma X. An approach to simulating virtual medical instruments. Invention patent. Application No.:201410140075.X.} \\
-
-\textsc{[5]} & \emph{Wang HY, Wu JH. An approach to processing data in virtual surgery. Invention patient. Application No.:201410841513.5.} \\
-
-\textsc{[6]} & \emph{Wu JH, Wang HY. Interventional surgery planning and training equipment and related methods. Invention patient. Applied. }\\
-
-\end{tabular}
 %----------------------------------------------------------------------------------------
 %	LANGUAGES
 %----------------------------------------------------------------------------------------
@@ -203,17 +222,7 @@
 
 \end{tabular}
 
-%----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS
-%----------------------------------------------------------------------------------------
 
-\section{Computer Skills}
-
-\begin{tabular}{rl}
-Basic Knowledge: & \textsc{python}, \textsc{Linux}, ubuntu, {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
-
-Intermediate Knowledge: & \textsc{C, C++, MSVC, GLSL, MFC, Word, PowerPoint}\\
-\end{tabular}
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS AND ACTIVITIES
