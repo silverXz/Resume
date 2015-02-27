@@ -1,0 +1,10 @@
+\documentclass[line,margin]{res}
+
+\begin{document}
+\name{Haoyu Wang}
+\address[1234 Herp Derp Lane \\ Rabble, FL }
+
+\begin{resume}
+
+\end{resume}
+\end{document}

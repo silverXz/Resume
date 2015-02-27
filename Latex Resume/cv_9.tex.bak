@@ -1,0 +1,233 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be 
+\usepackage{fullpage}
+% To reduce the height of the top margin uncomment: 
+\addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Haoyu \textsc{Wang}}\bigskip\par} % Your name
+
+\section{Personal Data}
+
+\begin{tabular}{rl}
+\textsc{Place and Date of Birth:} & P.R.China  | 18 November 1988 \\
+\textsc{Address:} & 1068 Xueyuan Avenue, Shenzhen, P.R.China \\
+\textsc{Phone:} & +86 18665801973\\
+\textsc{email:} & \href{mailto:wanghaoyu00x@gmail.com}{wanghaoyu00x@gmail.com}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{rl}	
+\textsc{Sep. 2011 - Jul. 2014} & Master of Computer Technology in \textbf{University of Chinese Academy of Sciences}\\
+& Major: Computer Graphics\\
+& Thesis: \small \emph{``Simulating the Motions of Guidewire and Catheter in Interventional Radiology''} \\ & \small Advisor: Dr. Wu \textsc{Jianhuang}\\
+&\normalsize \textsc{Gpa}: 3.35/4.0 \\
+&\\
+
+%------------------------------------------------
+
+\textsc{Sep. 2007 - Jul. 2011} & Bachelor of Control Science and Engineering in \textbf{Shandong University} \\
+& \small\emph{Automation Specialization} \normalsize \\
+&\normalsize \textsc{Gpa}: 3.31/4.0 \\
+&\\
+
+%------------------------------------------------
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{11cm}}
+\textsc{Jul. 2014 - Current} & Research Assistant at \textsc{Shenzhen Institutes of Advanced Technoloty}, Shenzhen \\
+& \footnotesize{\emph{Participating in developping a medical simulating system for training interventional radiology skills. It is based on C++, MFC, OpenGL ( 4.0 or higher ). Responsible for Medical Data Visualization, Physical Simulation, Model Process }}.\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Jul. 2012- Jun. 2014} & Formal Student at \textsc{Shenzhen Institutes of Advanced Technology}, Shenzhen \emph{}\\
+& \footnotesize{\emph{Presented a fast and robust approach to simulating the behavior of guidewire in vascular interventional radiology. Rewrited the low-level old fixed-function OpenGL rendering code with GLSL 4.0 to make good use of the highly programmable pipeline.}}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	PROJECT EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Project Experience}
+
+\begin{tabular}{rp{12.0cm}}
+\textbf{Medical Simulation} &  Jun. 2012 - Current\\
+\footnotesize{(Work)}& \footnotesize{Mesh Process: \emph{fill holes, make C-Arm animation,etc.}}\\
+ & \footnotesize{ UI Layout: \emph{Multiple Viewport Management, Multiple Monitor Display,etc. }}\\
+ & \footnotesize{Medical data visualization: \emph{X-Ray/Endoscope/Angiography Simulation, Phong lighting, etc.}}\\
+ & \footnotesize{Physical Simulation: \emph{Collision Detection,Medical Instrument behavior modeling/simulation,etc.}}\\
+
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textbf{Fluid Simulation} &  Apr. 2013 - Current \\
+\footnotesize{(Work)}& \footnotesize{\emph{Using ping-pong buffer to solve the Navier-Stokes equation on the GPU}}.\\
+& \footnotesize{\emph{Using point sprite to visualize particles as fluid.}}.\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textbf{Delta3D Pool Game} & Sep. 2011 - Jan. 2012 \\
+\footnotesize{(Course Group)} & \footnotesize{\emph{Game scene setup by importing models and adding light sources in the Delta3D Editor}}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textbf{Linux-0.11 kernel} & Mar. 2012 - Jun. 2012 \\
+\footnotesize{(Course Group)} & \footnotesize{\emph{}}\\
+\multicolumn{2}{c}{} \\
+
+\textbf{Software Renderer} & Dec. 2014 - Current \\
+\footnotesize{(Personal)} & \footnotesize{\emph{}}\\
+\multicolumn{2}{c}{} \\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS AND ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+
+\section{Scholarships and Awards}
+
+\begin{tabular}{rl}
+\textsc{Jan.} 2008 & Third Class of Outstanding Undergraduate Scholarship \\
+
+\textsc{Jan.} 2013 & Outstanding Postgraduate Scholarship \\
+
+\textsc{Dec.} 2014 & The First Prize in the 1st " UCAS Cup " Venture Contest \\
+
+\textsc{Jan.} 2015 & Outstanding Employee of The Year 2014 \\
+\end{tabular}
+
+
+
+%----------------------------------------------------------------------------------------
+%	Paper and Patent
+%----------------------------------------------------------------------------------------
+
+\section{Paper and Patent}
+
+\begin{tabular}{p{0.3cm}p{15.0cm}}
+\textsc{[1]} & \emph{Wang HY, Wu JH, Wei MQ, Ma X. A robust and fast approach to simulating the behavior of guidewire in vascular interventional radiology. Computerized Medical Imaging and Graphics. 2015,40(2):160-169. (IF=1.496, JCR3).}\\
+
+\textsc{[2]} & \emph{Wu JH, Zhang P, Wang HY, Mi JP, Ma X, Hu QM. A virtual simulator for training essential skills in vascular interventional radiology. International Journal of Computer Assisted Radiology and Surgery. 2014, 9(Suppl 1):S44-S45. (IF=1.659, JCR2/3).}\\
+
+\textsc{[3]} & \emph{Wu JH, Wang HY, Zang P, Hu QM. A computer-based simulator for percutaneous coronary intervention. 7th International Conference on Bioinformatics and Biomedical Technology. Accepted.} \\
+
+\textsc{[4]} & \emph{Wu JH, Wang HY, Ma X. An approach to simulating virtual medical instruments. Invention patent. Application No.:201410140075.X.} \\
+
+\textsc{[5]} & \emph{Wang HY, Wu JH. An approach to processing data in virtual surgery. Invention patient. Application No.:201410841513.5.} \\
+
+\textsc{[6]} & \emph{Wu JH, Wang HY. Interventional surgery planning and training equipment and related methods. Invention patient. Applied. }\\
+
+\end{tabular}
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\begin{tabular}{rl}
+\textsc{English:} & Fluent\\
+
+\textsc{Chinese:} & Mothertongue\\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+\begin{tabular}{rl}
+Basic Knowledge: & \textsc{python}, \textsc{Linux}, ubuntu, {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+
+Intermediate Knowledge: & \textsc{C, C++, MSVC, GLSL, MFC, Word, PowerPoint}\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests and Activities}
+
+Technology, Open-Source, Programming\\
+Paradoxes in Decision Making, Psychoanalysis, Behavioural Finance\\
+Basketball, Travelling
+
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
