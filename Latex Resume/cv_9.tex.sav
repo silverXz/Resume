@@ -38,7 +38,7 @@
 % To reduce the height of the top margin uncomment:
 %\addtolength{\voffset}{-1.0cm}
 
-\usepackage[bottom=0.5in,top=0.4in,left = 1.0in,right = 1.0in]{geometry}
+\usepackage[bottom=0.2in,top=0.4in,left = 1.0in,right = 1.0in]{geometry}
 
 \usepackage{hyperref} % Required for adding links	and customizing them
 \definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
@@ -96,7 +96,7 @@
 
 \begin{tabular}{r|p{12cm}}
 \textsc{Jul. 2014 - Current} & \emph{Research Assistant} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \          \emph{Shenzhen Institutes of Advanced Technoloty} \\
-& \footnotesize{\emph{Working in developping a medical simulating system for training interventional radiology skills. It is based on C++, MFC, OpenGL ( 4.0 or higher ). Responsible for medical data visualization, physical simulation and mesh processing. } \hyperlink{grds}{\hfill \footnotesize Papers and Patents}}\\
+& \footnotesize{\emph{Working in developping a medical simulating system for training interventional radiology skills. It is based on C++, MFC, OpenGL ( 4.0 or higher ). Responsible for medical data visualization, physical simulation and mesh processing } \hyperlink{grds}{\hfill \footnotesize Papers and PatDetailed List of Exams}}.\\
 
 \multicolumn{2}{c}{} \\
 
@@ -181,10 +181,9 @@
 \section{Computer Skills}
 
 \begin{tabular}{rl}
-Basic Knowledge: & \emph{python,Linux, Ubuntu,} {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+Basic Knowledge: & \textsc{python}, \textsc{Linux}, ubuntu, {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
 
-Intermediate Knowledge: & \emph{C, C++, GLSL, CG Rendering Algorithms, Windows Programming, MFC}\\
-& \emph{MS Visual Studio, MS Office(\textit{Word, PowerPoint,etc.})}
+Intermediate Knowledge: & \textsc{C, C++, MSVC, GLSL, MFC, MS Office(Word, PowerPoint)}
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
@@ -199,22 +198,15 @@ Intermediate Knowledge: & \emph{C, C++, GLSL, CG Rendering Algorithms, Windows P
 %\textsc{Chinese:} & Mother tongue\\
 
 \end{tabular}
-\\
-\\
-\\
-\\
+
+
 %----------------------------------------------------------------------------------------
 %	Paper and Patent
 %----------------------------------------------------------------------------------------
 
-\par{\centering\Large \hypertarget{grds}{Papers and Patents}\par}
-\par 
-\par
-%\large{\centering Grades\par}\normalsize
-%\par{ \centering \Large \hypertarget{grds}{Papers and Patents}}
+\section{Papers and Patents}
 
 \begin{tabular}{p{0.3cm}p{15.0cm}}
-\\
 \textsc{[1]} & \textbf{Wang HY}\emph{, Wu JH, Wei MQ, Ma X. A robust and fast approach to simulating the behavior of guidewire in vascular interventional radiology. Computerized Medical Imaging and Graphics. 2015,40(2):160-169. (IF=1.496, JCR3).}\\
 
 \textsc{[2]} & \emph{Wu JH, Zhang P,} \textbf{Wang HY}\emph{, Mi JP, Ma X, Hu QM. A virtual simulator for training essential skills in vascular interventional radiology. International Journal of Computer Assisted Radiology and Surgery. 2014, 9(Suppl 1):S44-S45. (IF=1.659, JCR2/3).}\\
@@ -241,11 +233,11 @@ Intermediate Knowledge: & \emph{C, C++, GLSL, CG Rendering Algorithms, Windows P
 %	INTERESTS AND ACTIVITIES
 %----------------------------------------------------------------------------------------
 
-%\section{Interests and Activities}
+\section{Interests and Activities}
 
-%Technology, Open-Source, Programming\\
-%Paradoxes in Decision Making, Psychoanalysis, Behavioural Finance\\
-%Basketball, Travelling
+Technology, Open-Source, Programming\\
+Paradoxes in Decision Making, Psychoanalysis, Behavioural Finance\\
+Basketball, Travelling
 
 %----------------------------------------------------------------------------------------
 

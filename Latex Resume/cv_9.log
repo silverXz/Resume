@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9997.4 (MiKTeX 2.9) (preloaded format=xelatex 2015.2.27)  28 FEB 2015 11:22
+This is XeTeX, Version 3.1415926-2.2-0.9997.4 (MiKTeX 2.9) (preloaded format=xelatex 2015.2.27)  28 FEB 2015 13:19
 entering extended mode
 **cv_9.tex
 ("C:\Users\dell\Documents\GitHub\Resume\Latex Resume\cv_9.tex"
@@ -726,11 +726,11 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
-* v-part:(T,H,B)=(28.90755pt, 801.68553pt, 14.45377pt)
+* v-part:(T,H,B)=(28.90755pt, 780.0043pt, 36.135pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=452.9679pt
-* \textheight=801.68553pt
+* \textheight=780.0043pt
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
 * \topmargin=-80.36244pt
@@ -837,47 +837,67 @@ t;;"
 
 Unknown feature `' in font `Fontin Regular'.
 
-Overfull \hbox (1.3241pt too wide) in paragraph at lines 210--210
-[]\EU1/Fontin(0)/m/sc/10 [1]| 
+Underfull \hbox (badness 10000) in paragraph at lines 196--209
+
  []
 
 
-Overfull \hbox (1.3241pt too wide) in paragraph at lines 212--212
-[]\EU1/Fontin(0)/m/sc/10 [2]| 
+Underfull \hbox (badness 10000) in paragraph at lines 196--209
+
  []
 
 
-Overfull \hbox (1.3241pt too wide) in paragraph at lines 214--214
-[]\EU1/Fontin(0)/m/sc/10 [3]| 
+Underfull \hbox (badness 10000) in paragraph at lines 196--209
+
  []
 
 
-Overfull \hbox (1.3241pt too wide) in paragraph at lines 216--216
-[]\EU1/Fontin(0)/m/sc/10 [4]| 
- []
+Underfull \hbox (badness 10000) in paragraph at lines 196--209
 
-
-Overfull \hbox (1.3241pt too wide) in paragraph at lines 218--218
-[]\EU1/Fontin(0)/m/sc/10 [5]| 
- []
-
-
-Overfull \hbox (1.3241pt too wide) in paragraph at lines 220--220
-[]\EU1/Fontin(0)/m/sc/10 [6]| 
- []
-
-
-Overfull \hbox (6.35934pt too wide) in paragraph at lines 209--223
-[][] 
  []
 
 [1
 
-] [2] ("C:\Users\dell\Documents\GitHub\Resume\Latex Resume\cv_9.aux") ) 
+]
+Overfull \hbox (1.3241pt too wide) in paragraph at lines 218--218
+[]\EU1/Fontin(0)/m/sc/10 [1]| 
+ []
+
+
+Overfull \hbox (1.3241pt too wide) in paragraph at lines 220--220
+[]\EU1/Fontin(0)/m/sc/10 [2]| 
+ []
+
+
+Overfull \hbox (1.3241pt too wide) in paragraph at lines 222--222
+[]\EU1/Fontin(0)/m/sc/10 [3]| 
+ []
+
+
+Overfull \hbox (1.3241pt too wide) in paragraph at lines 224--224
+[]\EU1/Fontin(0)/m/sc/10 [4]| 
+ []
+
+
+Overfull \hbox (1.3241pt too wide) in paragraph at lines 226--226
+[]\EU1/Fontin(0)/m/sc/10 [5]| 
+ []
+
+
+Overfull \hbox (1.3241pt too wide) in paragraph at lines 228--228
+[]\EU1/Fontin(0)/m/sc/10 [6]| 
+ []
+
+
+Overfull \hbox (6.35934pt too wide) in paragraph at lines 216--231
+[][] 
+ []
+
+[2] ("C:\Users\dell\Documents\GitHub\Resume\Latex Resume\cv_9.aux") ) 
 Here is how much of TeX's memory you used:
  16487 strings out of 430486
  264397 string characters out of 3191694
- 394027 words of memory out of 3000000
+ 392021 words of memory out of 3000000
  19410 multiletter control sequences out of 15000+200000
  3792 words of font info for 33 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
